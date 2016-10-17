@@ -1,0 +1,23 @@
+# Backupfiles from mergetools #
+*.orig
+
+# Java Class Files #
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+
+*.log
+
+# Eclipse #
+/.project
+bin
+classes
+
+# Maven #
+target/
+.surefire-*
+.flattened-pom.xml
