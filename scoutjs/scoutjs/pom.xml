@@ -24,10 +24,6 @@
   </properties>
 
   <modules>
-    <module>../scoutjs.shared</module>
-    <module>../scoutjs.server</module>
-    <module>../scoutjs.client</module>
-    <module>../scoutjs.server.app.war</module>
     <module>../scoutjs.ui.html</module>
     <module>../scoutjs.ui.html.app.war</module>
   </modules>

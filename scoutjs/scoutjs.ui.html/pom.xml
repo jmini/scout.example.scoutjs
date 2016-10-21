@@ -20,10 +20,6 @@
       <artifactId>org.eclipse.scout.rt.ui.html</artifactId>
     </dependency>
     <dependency>
-      <groupId>ch.ahoegger.scout.example</groupId>
-      <artifactId>scoutjs.client</artifactId>
-    </dependency>
-    <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
     </dependency>

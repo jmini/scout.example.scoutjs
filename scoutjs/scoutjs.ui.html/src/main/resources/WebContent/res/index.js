@@ -1,8 +1,9 @@
 $(document).ready(function() {
-  var app = new scout.RemoteApp();
+  var app = new scoutjs.App();
   app.init({
     bootstrap: {
-      fonts: ['scoutIcons']
+      fonts: ['scoutIcons'],
+      modelsUrl: 'res/application-all-macro.json'
     }
   });
 });

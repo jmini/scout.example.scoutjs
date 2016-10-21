@@ -1,0 +1,25 @@
+{
+    "id": "scoutjsDesktop",
+    "title": "${textKey:DesktopTitle}",
+    "objectType": "Desktop",
+    "type": "model",
+    "menus": [
+      {
+        "id": "MainMenu",
+        "objectType": "Menu",
+        "text": "${textKey:About}",
+        "childActions": [
+          {
+            "id" : "OptionsMenu",
+            "objectType": "Menu",
+            "text": "${textKey:Options}"
+          }
+        ]
+      },
+      {
+        "id": "PresentationModeMenu",
+        "objectType": "Menu",
+        "text": "${textKey:Presentation}"
+      }
+    ]
+}

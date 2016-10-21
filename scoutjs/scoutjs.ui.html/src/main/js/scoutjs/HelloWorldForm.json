@@ -1,0 +1,57 @@
+{
+  "id": "scoutjs.HelloWorldForm",
+  "objectType": "Form",
+  "displayHint": "view",
+  "type": "model",
+  "rootGroupBox": {
+    "id": "MainBox",
+    "mainBox": true,
+    "objectType": "GroupBox",
+    "menus": [
+      {
+        "id": "SaveMenu",
+        "objectType": "Menu",
+        "text": "${textKey:Save}",
+        "actionStyle": 1,
+        "keyStroke": "Enter",
+        "visible": false
+      },
+      {
+        "id": "CancelMenu",
+        "objectType": "Menu",
+        "text": "${textKey:Cancel}",
+        "actionStyle": 1,
+        "visible": false
+      }
+    ],
+    "fields": [
+      {
+        "id": "BriefcaseCommunicationBox",
+        "objectType": "GroupBox",
+        "gridColumnCount": 1,
+        "fields": [
+          {
+            "id": "Subject",
+            "objectType": "StringField",
+            "label": "${textKey:StringField}"
+          },
+                    {
+            "id": "DateField",
+            "objectType": "DateField",
+            "label": "${textKey:DateField}",
+            "dateFormatPattern": "dd.MM.yyyy",
+            "hasTime": false
+          },
+          {
+            "id": "DateTimeField",
+            "objectType": "DateField",
+            "label": "${textKey:DateTimeField}",
+            "dateFormatPattern": "dd.MM.yyyy",
+            "hasTime": true,
+            "timeFormatPattern": "HH:mm"
+          }
+        ]
+      }
+    ]
+  }
+}
