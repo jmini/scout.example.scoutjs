@@ -1,5 +1,5 @@
 {
-    "id": "scoutjsDesktop",
+    "id": "scoutjs.Desktop",
     "title": "${textKey:DesktopTitle}",
     "objectType": "Desktop",
     "type": "model",

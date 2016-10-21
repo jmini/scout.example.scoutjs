@@ -1,48 +1,6 @@
 {
   "id": "scoutjs.OptionsForm",
-  "objectType": "Form",
-  "displayHint": "view",
-  "displayViewId": "E",
-  "type": "model",
-  "rootGroupBox": {
-    "id": "MainBox",
-    "mainBox": true,
-    "objectType": "GroupBox",
-     "menus": [
-      {
-        "id": "SaveMenu",
-        "objectType": "Menu",
-        "text": "${textKey:Save}",
-        "actionStyle": 1,
-        "keyStroke": "Enter",
-        "visible": true
-      },
-      {
-        "id": "CancelMenu",
-        "objectType": "Menu",
-        "text": "${textKey:Cancel}",
-        "actionStyle": 1,
-        "visible": true
-      }
-    ],
-    "fields": [
-      {
-        "id": "BriefcaseCommunicationBox",
-        "objectType": "GroupBox",
-        "gridColumnCount": 1,
-        "fields": [
-          {
-            "id": "options.label",
-            "objectType": "LabelField",
-            "label": "${textKey:StringField}"
-          }
-        ]
-      }
-    ]
-  }
-}
-{
-  "id": "scoutjs.OptionsForm",
+  "title" : "Options",
   "objectType": "Form",
   "displayHint": "view",
   "displayViewId": "E",
