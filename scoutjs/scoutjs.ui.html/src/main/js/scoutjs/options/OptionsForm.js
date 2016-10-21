@@ -18,6 +18,8 @@ scoutjs.OptionsForm.prototype._init = function(model) {
     
     this.saveMenu.on('doAction', this._onSaveAction.bind(this));
     this.cancelMenu.on('doAction', this._onCancelAction.bind(this));
+    
+    this.getWidgetById('options.label').setValue('some options here');
 };
 
 scoutjs.OptionsForm.prototype._jsonModel = function() {
